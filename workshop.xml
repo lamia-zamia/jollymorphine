@@ -1,6 +1,6 @@
 <Mod
 	name="Jollymorphine"
-	description="Merry Hiisimas!"
+	description=""
 	tags="funny"
 	dont_upload_folders=""
 	dont_upload_files="README.md|.gitignore" />
