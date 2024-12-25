@@ -1,0 +1,5 @@
+<Entity>
+	<Base file="data/entities/misc/effect_polymorph.xml">
+		<GameEffectComponent polymorph_target="mods/jollymorphine/files/entity/jolly_hiisi/jolly_hiisi.xml" />
+	</Base>
+</Entity>

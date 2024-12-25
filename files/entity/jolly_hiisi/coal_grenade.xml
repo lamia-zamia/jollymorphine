@@ -1,0 +1,66 @@
+<Entity name="$projectile_default">
+	<Base file="data/entities/projectiles/deck/rock.xml">
+		<VariableStorageComponent
+			name="projectile_file"
+			value_string="mods/jollymorphine/files/entity/jolly_hiisi/coal_grenade.xml" />
+
+		<PhysicsImageShapeComponent
+			image_file="mods/jollymorphine/files/entity/jolly_hiisi/coal.png"
+			material="coal" />
+
+		<PhysicsThrowableComponent
+			max_throw_speed="180"
+			min_torque="0.5"
+			max_torque="8" />
+
+		<AudioComponent
+			file="data/audio/Desktop/projectiles.bank"
+			event_root="projectiles/bullet_launcher" />
+
+		<UIInfoComponent name="$mat_coal" />
+	</Base>
+
+	<ParticleEmitterComponent
+		emitted_material_name="fire"
+		count_max="1"
+		offset.x="-1"
+		offset.y="0"
+		x_pos_offset_min="-1"
+		y_pos_offset_min="-2"
+		x_pos_offset_max="1"
+		y_pos_offset_max="2"
+		count_min="1"
+		is_trail="1"
+		trail_gap="2.5"
+		lifetime_min="0.1"
+		lifetime_max="0.3"
+		render_on_grid="1"
+		create_real_particles="0"
+		emit_cosmetic_particles="0"
+		emit_real_particles="1"
+		emission_interval_min_frames="1"
+		emission_interval_max_frames="1"
+		is_emitting="1"
+		emitter_lifetime_frames="60" />
+
+	<ParticleEmitterComponent
+		emitted_material_name="coal"
+		count_max="3"
+		offset.x="-1"
+		offset.y="0"
+		x_pos_offset_min="-1"
+		y_pos_offset_min="-2"
+		x_pos_offset_max="1"
+		y_pos_offset_max="2"
+		count_min="2"
+		lifetime_min="0.1"
+		lifetime_max="1.3"
+		render_on_grid="1"
+		create_real_particles="0"
+		emit_cosmetic_particles="0"
+		emit_real_particles="1"
+		emission_interval_min_frames="1"
+		emission_interval_max_frames="1"
+		is_emitting="1"
+		emitter_lifetime_frames="60" />
+</Entity>

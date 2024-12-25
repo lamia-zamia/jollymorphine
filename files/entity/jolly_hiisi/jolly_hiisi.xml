@@ -1,0 +1,11 @@
+<Entity name="$animal_scavenger_leader">
+	<Base file="data/entities/animals/scavenger_leader.xml" include_children="1">
+		<SpriteComponent image_file="mods/jollymorphine/files/entity/jolly_hiisi/scavenger_leader.xml" />
+		<AnimalAIComponent attack_ranged_entity_file="mods/jollymorphine/files/entity/jolly_hiisi/coal_grenade.xml" />
+		<LuaComponent />
+		<LuaComponent script_damage_received="mods/jollymorphine/files/entity/jolly_hiisi/leader_damage.lua" />
+		<DamageModelComponent>
+			<damage_multipliers fire="0.0" />
+		</DamageModelComponent>
+	</Base>
+</Entity>

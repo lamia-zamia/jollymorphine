@@ -1,0 +1,20 @@
+<Materials>
+	<CellDataChild
+		_parent="magic_liquid_unstable_polymorph"
+		name="magic_liquid_jolly_polymorph"
+		ui_name="Jollymorphine"
+		wang_color="80a356a0"
+		liquid_flow_speed="0.3">
+		<Graphics
+			texture_file="mods/jollymorphine/files/jolly.png"
+			color="80ff242f" />
+		<StatusEffects>
+			<Ingestion>
+				<StatusEffect type="JOLLYMORPHINE_POLY" amount="0.2" />
+			</Ingestion>
+			<Stains>
+				<StatusEffect type="JOLLYMORPHINE_POLY" />
+			</Stains>
+		</StatusEffects>
+	</CellDataChild>
+</Materials>

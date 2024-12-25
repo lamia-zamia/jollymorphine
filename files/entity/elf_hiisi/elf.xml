@@ -1,0 +1,5 @@
+<Entity name="$animal_scavenger_grenade">
+	<Base file="data/entities/animals/scavenger_grenade.xml" include_children="1">
+		<SpriteComponent image_file="mods/jollymorphine/files/entity/elf_hiisi/scavenger_grenade.xml" />
+	</Base>
+</Entity>
